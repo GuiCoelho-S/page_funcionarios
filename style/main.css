@@ -313,7 +313,8 @@ h2 {
     margin-top:20px;
     display:flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    max-width: 1200px;
+    margin:auto;
 }
 
 .menu_navegacao {
@@ -433,6 +434,7 @@ RESPONSIVIDADE
   .container_main {
       flex-direction: column;
       align-items: center;
+      
   }
   .item1{
       width:100px;
