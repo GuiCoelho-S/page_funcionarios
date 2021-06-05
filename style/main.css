@@ -335,8 +335,8 @@ h2 {
 
     
     .dropdown {
-    position: relative;
-    display: inline-block;
+      position: relative;
+      z-index: 1;
     }
     .dropdown-child {
     display: none;
