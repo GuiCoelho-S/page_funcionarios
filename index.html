@@ -8,24 +8,88 @@
     <link rel="stylesheet" href="./style/main.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <div class="informacoes_cabecalho">
-            <div><i class="fas fa-map-marker-alt"></i> <p>Rua Inex Istente, 70</p></div>
-            <div><i class="fas fa-phone-alt"></i> <p>(11) 97070-7070</p></div>
-            <div><i class="fas fa-envelope-open-text"></i><p>obrazil.com.br</p></div>
-        </div>
-        <div class="navbar_cabecalho">
-                <article><img class="logo" src="./img/logo.jpg"></article>
-                
-            <div class="container_pesquisa ">
-                <h2>Unidos para construir</h2>
-               <div class="pesquisa">
-                    <input class="input" type="text" placeholder="Digite aqui sua dúvida"></input>                                     
-                    <i class="fas fa-search"></i>
-                </div>
+    <header>
+        <!-- TOP HEADER -->
+        <div id="top-header">
+            <div class="container">
+                <ul class="header-links pull-left">
+                    <li><a href="#"><i class="fa fa-map-marker"></i>Rua Inex Istente, 70 </a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i>(11) 97070-7070</a></li>
+                    <li><a href="#"><i class="fa fa-envelope-o"></i>obraszil@obraszil.com.br</a></li>	
+                </ul>
+                <ul class="header-links pull-right">
+                    <li><a href="#"><i class="fa fa-user-o"></i> Login</a></li>
+                </ul>
             </div>
-            
         </div>
+        <!-- /TOP HEADER -->
+
+        <!-- MAIN HEADER -->
+        <div id="header">
+            <!-- container -->
+            <div class="container">
+                <!-- row -->
+                <div class="row">
+                    <!-- LOGO -->
+                    <div class="col-md-3">
+                        <div class="header-logo">
+                            <a href="#" class="logo">
+                                <img src="./img/logo.png" style="width:80%;" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /LOGO -->
+
+                    <!-- barra de pesquisa -->
+                    <div class="col-md-6">
+                        <div class="header-search">
+                            <form>
+                                <select class="input-select">
+                                    <option value="0">Todos</option>
+                                    <option value="1">Jardinagem</option>
+                                    <option value="2">Encanamento</option>
+                                    <option value="3">Limpeza</option>
+                                    <option value="4">Eletricista</option>
+                                    <option value="5">Outros</option>
+
+                                </select>
+                                <input class="input" placeholder="Pesquise aqui... ">
+                                <button class="search-btn">Pesquisar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- /barra de pesquisa -->
+
+                    <!-- ACCOUNT -->
+                    <div class="col-md-3 clearfix">
+                        <div class="header-ctn">
+                            <!-- curtida -->
+                            <div>
+                                <a href="#">
+                                    <i class="fa fa-heart-o" style="color: black;"></i>
+                                    <span class="h3"style="color:black;">Sua curtida</span>
+                                    <div class="qty">2</div>
+                                </a>
+                            </div>
+                            <!-- /curtida -->
+
+                            <!-- Menu Toogle -->
+                            <div class="menu-toggle">
+                                <a href="#">
+                                    <i class="fa fa-bars"></i>
+                                    <span>Menu</span>
+                                </a>
+                            </div>
+                            <!-- /Menu Toogle -->
+                        </div>
+                    </div>
+                    <!-- /ACCOUNT -->
+                </div>
+                <!-- row -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- /MAIN HEADER -->
     </header>
 
     <main class="container_main">
@@ -52,43 +116,43 @@
     
             </article>   
             <article class="container_grid">
-                <div class="item1"><img class="foto_perfil"src="./img/joao.jpg"></div>
-                <h3 class="item2">João da Silva Medeiros</h3>
-                <p class="item3">Profissão: marceneiro</p>
-                <p class="item4">Pretenção salarial: 3000,00 R$</p>
-                <p class="item5">Me chamo João, trabalho com marcenaria há 10 anos, já trabalhei com diversas empreasas multinacionais e hoje procuro por trabalhos focados em</p>
+                <div class="item1"><img class="foto_perfil"src="./img/gabriel.png"></div>
+                <h3 class="item2">Gabriel de Souza Melo</h3>
+                <p class="item3">Profissão: Engenheiro Civil</p>
+                <p class="item4">Pretenção salarial: 6500,00 R$</p>
+                <p class="item5">Me chamo Gabriel, trabalho com engenharia há 3 anos, estou na procura de novas oportunidades.</p>
     
             </article>
             <article class="container_grid">
-                <div class="item1"><img class="foto_perfil"src="./img/joao.jpg"></div>
-                <h3 class="item2">João da Silva Medeiros</h3>
-                <p class="item3">Profissão: marceneiro</p>
-                <p class="item4">Pretenção salarial: 3000,00 R$</p>
-                <p class="item5">Me chamo João, trabalho com marcenaria há 10 anos, já trabalhei com diversas empreasas multinacionais e hoje procuro por trabalhos focados em</p>
+                <div class="item1"><img class="foto_perfil"src="./img/luan.jpg"></div>
+                <h3 class="item2">Luan Bastista</h3>
+                <p class="item3">Profissão: Ajudante de pedreiro</p>
+                <p class="item4">Pretenção salarial: 1800,00 R$</p>
+                <p class="item5">Me chamo Luan Batista, trabalho como ajudante de pedreiro, almejo trabalhar como pedreiro no futuro.</p>
     
             </article>
             <article class="container_grid">
-                <div class="item1"><img class="foto_perfil"src="./img/joao.jpg"></div>
-                <h3 class="item2">João da Silva Medeiros</h3>
-                <p class="item3">Profissão: marceneiro</p>
-                <p class="item4">Pretenção salarial: 3000,00 R$</p>
-                <p class="item5">Me chamo João, trabalho com marcenaria há 10 anos, já trabalhei com diversas empreasas multinacionais e hoje procuro por trabalhos focados em</p>
+                <div class="item1"><img class="foto_perfil"src="./img/jonas.jpg"></div>
+                <h3 class="item2">Jonas de Albuquerque Santos</h3>
+                <p class="item3">Profissão: Técnico de Segunça no Trabalho</p>
+                <p class="item4">Pretenção salarial: 4000,00 R$</p>
+                <p class="item5">Me chamo Jonas, trabalho como tecnico de segurança no trabalho há 8 anos, a peça necessária para a sua empresa, mais informações no whatsapp</p>
     
             </article>
             <article class="container_grid">
-                <div class="item1"><img class="foto_perfil"src="./img/joao.jpg"></div>
-                <h3 class="item2">João da Silva Medeiros</h3>
-                <p class="item3">Profissão: marceneiro</p>
-                <p class="item4">Pretenção salarial: 3000,00 R$</p>
-                <p class="item5">Me chamo João, trabalho com marcenaria há 10 anos, já trabalhei com diversas empreasas multinacionais e hoje procuro por trabalhos focados em</p>
+                <div class="item1"><img class="foto_perfil"src="./img/vinicius.jpg"></div>
+                <h3 class="item2">Vinícius Teodoro Amorim</h3>
+                <p class="item3">Profissão: Pedreiro</p>
+                <p class="item4">Pretenção salarial: 3200,00 R$</p>
+                <p class="item5">Me chamo Vinícius, trabalho com alvenaria há 6 anos, já trabalhei com diversas empreasas, a procura por trabalhos relacioando a infraestrutura de prédios e campus de futebol.</p>
     
             </article>
             <article class="container_grid">
-                <div class="item1"><img class="foto_perfil"src="./img/joao.jpg"></div>
-                <h3 class="item2">João da Silva Medeiros</h3>
-                <p class="item3">Profissão: marceneiro</p>
-                <p class="item4">Pretenção salarial: 3000,00 R$</p>
-                <p class="item5">Me chamo João, trabalho com marcenaria há 10 anos, já trabalhei com diversas empreasas multinacionais e hoje procuro por trabalhos focados em</p>
+                <div class="item1"><img class="foto_perfil"src="./img/angela.jpg"></div>
+                <h3 class="item2">Angela Macia de Azevedo</h3>
+                <p class="item3">Profissão: jardineira</p>
+                <p class="item4">Pretenção salarial: 4000,00 R$</p>
+                <p class="item5">Me chamo Angela, estudo design de interiores e trabalho como jardineira para complementar a renda mensal, possui experi~encia de 8 meses.</p>
     
             </article>
   
